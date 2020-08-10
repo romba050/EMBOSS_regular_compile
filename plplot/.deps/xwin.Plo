@@ -1,0 +1,5 @@
+xwin.lo: xwin.c plDevs.h ../ajax/core/config.h
+
+plDevs.h:
+
+../ajax/core/config.h:

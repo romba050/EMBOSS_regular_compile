@@ -1,0 +1,46 @@
+########################################
+# Program: water
+# Rundate: Tue  4 Aug 2020 14:33:47
+# Commandline: water
+#    -asequence test_seqs/seq1.fa
+#    -bsequence test_seqs/seq2.fa
+#    -gapopen 10
+#    -gapextend 0.5
+#    -outfile output.water
+# Align_format: srspair
+# Report_file: output.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HS04636
+# 2: HS08198
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 115
+# Identity:      52/115 (45.2%)
+# Similarity:    52/115 (45.2%)
+# Gaps:          48/115 (41.7%)
+# Score: 52.5
+# 
+#
+#=======================================
+
+HS04636            3 gctcacattaactatttacagggtaactgcttaggaccagtattatgagg     52
+                     ||||| |..|||..|      |||     ||   |||| ||      .||
+HS08198           36 gctca-acgaacgct------ggt-----ct---gacc-gt------cgg     63
+
+HS04636           53 agaatttacct-ttccc--gcctct----------ctttccaagaaacaa     89
+                     .|   .|.||| ||.||  ||| ||          |||  ||.|||.|  
+HS08198           64 cg---ctccctgttgccgggcc-ctgagcaagtggctt--catgaacc--    105
+
+HS04636           90 ggagggggtgaaggt    104
+                          ..||||.|.|
+HS08198          106 -----ccgtgacgtt    115
+
+
+#---------------------------------------
+#---------------------------------------
